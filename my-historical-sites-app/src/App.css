@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-image: url('https://wallpaperaccess.com/full/3570860.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.app-container {
+  
+  
+  height: 100vh; 
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h4 {
+  margin-left: 50px;
+  color:brown;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Light white glow */
+    0 0 10px rgba(255, 255, 255, 0.6), /* Medium white glow */
+    0 0 15px rgba(0, 255, 255, 0.4); /* Cyan glow */
+  
+}
+
+p {
+  color: antiquewhite;
+  font-weight: bolder;
+  margin-left: 140px;
+}
+
+span {
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Light white glow */
+    0 0 10px rgba(255, 255, 255, 0.6), /* Medium white glow */
+    0 0 15px rgba(0, 255, 255, 0.4); /* Cyan glow */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.line {
+  color:darkred;
+}
+
+nav {
+  position: fixed;  /* Fix the position to the viewport */
+  bottom: 0;        /* Align to the bottom */
+  left: 0;          /* Align to the left */
+  width: 100%;      /* Full width */
+  background-color: #333; /* Background color for visibility */
+  color:brown;
+  text-align: center; /* Center the text */
+  padding: 10px 0;  /* Padding for aesthetics */
+  z-index: 1000;    /* Ensure it appears above other content */
+}
+
+nav ul {
+  list-style: none;  /* Remove bullet points */
+  margin: 0;         /* Remove default margin */
+  padding: 0;        /* Remove default padding */
+}
+
+nav ul li {
+  display: inline;    /* Display items inline */
+  margin: 0 15px;    /* Space between items */
+}
+
+nav ul li a {
+  color: rgb(189, 14, 14);       /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

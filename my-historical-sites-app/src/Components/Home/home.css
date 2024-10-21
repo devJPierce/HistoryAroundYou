@@ -1,0 +1,55 @@
+form {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 500px;
+    background-color: black;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: brown;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: whitesmoke;
+    color: white; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    }
+
+  textarea {
+    background-color: black; 
+    color: white;  
+    border: 1px solid #ccc; 
+    padding: 10px;   
+    width: 100%;
+    max-width: 500px;
+    min-height: 100px;     
+  }
+
+  .post-content {
+    margin: 5px 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
